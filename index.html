@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio Bachrul</title>
+    <meta name="description" content="Portofolio Web Developer profesional">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading -->
+    <div class="loader" id="loader">
+        <div class="loader-ring"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-box">
+            <a href="#home" class="nav-brand">
+                <span class="brand-dot"></span>
+                Portofolio
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#projects" class="nav-link">Proyek</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        <div class="hero-wrap">
+            <div class="hero-text">
+                <div class="hero-tag">
+                    <span class="tag-pulse"></span>
+                    Tersedia untuk Kerja
+                </div>
+                <h1 class="hero-title">
+                    Halo, Saya <br>
+                    <span class="text-gradient">Bachrul Ulum</span>
+                </h1>
+                <p class="hero-sub" id="typeText"></p>
+                <p class="hero-desc">
+                    Membangun website modern, responsif, dan berperforma tinggi 
+                    dengan teknologi terkini.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-main">
+                        <i class="fas fa-rocket"></i> Lihat Proyek
+                    </a>
+                    <a href="#contact" class="btn btn-ghost">
+                        <i class="fas fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-orbit">
+                    <div class="img-frame">
+    <img src="Badrol.jpeg" alt="Badrol.jepg" 
+         style="width:100%; height:100%; object-fit:cover; border-radius:50%; border:3px solid rgba(255,255,255,0.3);">
+</div>
+                    <div class="orbit-ring ring-1"></div>
+                    <div class="orbit-ring ring-2"></div>
+                    <div class="orbit-dot dot-1"><i class="fab fa-html5"></i></div>
+                    <div class="orbit-dot dot-2"><i class="fab fa-css3-alt"></i></div>
+                    <div class="orbit-dot dot-3"><i class="fab fa-js"></i></div>
+                    <div class="orbit-dot dot-4"><i class="fab fa-react"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="sec-head">
+                <span class="sec-label">Tentang Saya</span>
+                <h2 class="sec-title">Kenali <span class="text-gradient">Lebih Dekat</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-img">
+                        <div class="img-frame">
+    <img src="Badrol.jpeg" alt="Badrol.jepg" 
+         style="width:100%; height:100%; object-fit:cover; border-radius:50%; border:3px solid rgba(255,255,255,0.3);">
+</div>
+                        <div class="img-deco"></div>
+                    </div>
+                    <div class="about-info">
+                        <h3>Data Pribadi</h3>
+                        <div class="info-list">
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-user"></i> Nama Lengkap</span>
+                                <span class="info-val">Bachrul Ulum</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-calendar"></i> Tanggal Lahir</span>
+                                <span class="info-val">20 Juni 2006</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-venus-mars"></i> Jenis Kelamin</span>
+                                <span class="info-val">Laki-laki</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-flag"></i> Kewarganegaraan</span>
+                                <span class="info-val">Indonesia</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-map-marker-alt"></i> Alamat</span>
+                                <span class="info-val">Magelang, Indonesia</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-envelope"></i> Email</span>
+                                <span class="info-val">bachrulstreet20@gmail.com</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-key"><i class="fas fa-phone"></i> Telepon</span>
+                                <span class="info-val">+62 85602326168</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-bio">
+                    <div class="bio-tabs">
+                        <button class="bio-tab active" data-tab="story">Cerita</button>
+                        <button class="bio-tab" data-tab="vision">Visi</button>
+                        <button class="bio-tab" data-tab="hobby">Hobi</button>
+                    </div>
+                    <div class="bio-panels">
+                        <div class="bio-panel active" id="panel-story">
+                            <p>Saya adalah seorang Teknisi jaringan yang sudah beberapa tahun ini untuk memahami tentang pembuatan website.Keinginan saya dimulai dari rasa ingin tau dan juga ingin memahami lebih dalam.</p>
+                            <p>Dengan pengalaman di jaringan, saya ingin mencoba belajar dan ingin memahami lebih dalam tentang pembuatan website serta akan saya gunakan di tahun tahun berikutnya serta akan memahami mendalam.</p>
+                            <div class="quote-box">
+                                <i class="fas fa-quote-left"></i>
+                                <blockquote>Kode yang baik adalah kode yang mudah dibaca, dipelihara, dan memberikan nilai bagi pengguna.</blockquote>
+                            </div>
+                        </div>
+                        <div class="bio-panel" id="panel-vision">
+                            <p>Visi saya adalah menjadi developer yang tidak hanya menguasai teknis, tetapi juga memahami kebutuhan bisnis dan pengguna.</p>
+                            <div class="vision-grid">
+                                <div class="vision-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <h4>Inovasi</h4>
+                                    <p>Selalu eksplor solusi baru</p>
+                                </div>
+                                <div class="vision-item">
+                                    <i class="fas fa-users"></i>
+                                    <h4>Kolaborasi</h4>
+                                    <p>Bekerja sama untuk hasil terbaik</p>
+                                </div>
+                                <div class="vision-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Pertumbuhan</h4>
+                                    <p>Terus belajar setiap hari</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bio-panel" id="panel-hobby">
+                            <p>Di luar coding, saya menikmati berbagai aktivitas yang membantu menjaga keseimbangan hidup.</p>
+                            <div class="hobby-list">
+                                <span class="hobby-tag"><i class="fas fa-futsal playying"></i> berolahraga</span>
+                                <span class="hobby-tag"><i class="fas fa-gamepad"></i> Gaming</span>
+                                <span class="hobby-tag"><i class="fas fa-music"></i> Musik</span>
+                                <span class="hobby-tag"><i class="fas fa-hiking"></i> Traveling</span>
+                                <span class="hobby-tag"><i class="fas fa-coffee"></i> Ngopi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span class="stat-num" data-count="3">0</span>
+                            <span class="stat-label">Tahun Pengalaman</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-num" data-count="100+">0</span>
+                            <span class="stat-label">troubelan Selesai</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-num" data-count="80+">0</span>
+                            <span class="stat-label">Klien Puas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="sec-head">
+                <span class="sec-label">Keahlian</span>
+                <h2 class="sec-title">Apa yang <span class="text-gradient">Saya Kuasai</span></h2>
+            </div>
+            <div class="skills-wrap">
+                <div class="skill-group">
+                    <h3 class="group-title"><i class="fas fa-code"></i> Keahlian dari saya</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-percent="90">
+                            <div class="bar-info">
+                                <span><i class="fab fa-html5"></i> Tentang jaringan</span>
+                                <span class="bar-percent">90%</span>
+                            </div>
+                            <div class="bar-track"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-percent="85">
+                            <div class="bar-info">
+                                <span><i class="fab fa-js"></i> html / css</span>
+                                <span class="bar-percent">70%</span>
+                            </div>
+                            <div class="bar-track"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-percent="80">
+                            <div class="bar-info">
+                                <span><i class="fab fa-react"></i> javaScript.js</span>
+                                <span class="bar-percent">60%</span>
+                            </div>
+                            <div class="bar-track"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-percent="75">
+                            <div class="bar-info">
+                                <span><i class="fab fa-node-js"></i> editing</span>
+                                <span class="bar-percent">70%</span>
+                            </div>
+                            <div class="bar-track"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-percent="70">
+                            <div class="bar-info">
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <span class="bar-percent">70%</span>
+                            </div>
+                            <div class="bar-track"><div class="bar-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="group-title"><i class="fas fa-tools"></i> Tools & Lainnya</h3>
+                    <div class="tool-cloud">
+                        <span class="tool-chip"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="tool-chip"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="tool-chip"><i class="fab fa-figma"></i> Figma</span>
+                        <span class="tool-chip"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tool-chip"><i class="fas fa-database"></i> MongoDB</span>
+                        <span class="tool-chip"><i class="fab fa-aws"></i> AWS</span>
+                        <span class="tool-chip"><i class="fab fa-linux"></i> Linux</span>
+                        <span class="tool-chip"><i class="fas fa-server"></i> REST API</span>
+                        <span class="tool-chip"><i class="fas fa-mobile-alt"></i> Responsive</span>
+                        <span class="tool-chip"><i class="fas fa-bolt"></i> Performance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="sec-head">
+                <span class="sec-label">Portofolio</span>
+                <h2 class="sec-title">Proyek <span class="text-gradient">Terbaru</span></h2>
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="app">Aplikasi</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-item" data-cat="web">
+                    <div class="project-img" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <i class="fas fa-shopping-bag"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="p-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="p-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>E-Commerce App</h3>
+                        <p>Platform belanja online dengan fitur lengkap</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-cat="app">
+                    <div class="project-img" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <i class="fas fa-tasks"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="p-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="p-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Task Manager</h3>
+                        <p>Aplikasi manajemen tugas tim real-time</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span><span>Firebase</span><span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-cat="design">
+                    <div class="project-img" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="p-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="p-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Dashboard UI</h3>
+                        <p>Desain dashboard analytics modern</p>
+                        <div class="project-tags">
+                            <span>Figma</span><span>UI/UX</span><span>Prototipe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-cat="web">
+                    <div class="project-img" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+                        <i class="fas fa-blog"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="p-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="p-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Blog Platform</h3>
+                        <p>Platform blogging dengan CMS custom</p>
+                        <div class="project-tags">
+                            <span>Next.js</span><span>MDX</span><span>Prisma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-cat="app">
+                    <div class="project-img" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                        <i class="fas fa-wallet"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="p-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="p-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Finance Tracker</h3>
+                        <p>Aplikasi pencatatan keuangan pribadi</p>
+                        <div class="project-tags">
+                            <span>React Native</span><span>SQLite</span><span>Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-cat="design">
+                    <div class="project-img" style="background: linear-gradient(135deg, #a8edea, #fed6e3);">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="p-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="p-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Mobile App UI</h3>
+                        <p>Desain aplikasi mobile fitness</p>
+                        <div class="project-tags">
+                            <span>Figma</span><span>Adobe XD</span><span>Mobile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="sec-head">
+                <span class="sec-label">Kontak</span>
+                <h2 class="sec-title">Mari <span class="text-gradient">Bekerja Sama</span></h2>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p>Punya ide proyek? Mari diskusikan bersama!</p>
+                    <div class="contact-items">
+                        <div class="c-item">
+                            <div class="c-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:email@anda.com">bachrulstreet20@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <span>WhatsApp</span>
+                                <a href="https://wa.me/6285602326168">+62 85602326168</a>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span>Lokasi</span>
+                                <p>Magelang, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-socials">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="f-group">
+                            <input type="text" id="fName" required placeholder=" ">
+                            <label for="fName">Nama Lengkap</label>
+                        </div>
+                        <div class="f-group">
+                            <input type="email" id="fEmail" required placeholder=" ">
+                            <label for="fEmail">Email</label>
+                        </div>
+                    </div>
+                    <div class="f-group">
+                        <input type="text" id="fSubject" required placeholder=" ">
+                        <label for="fSubject">Subjek</label>
+                    </div>
+                    <div class="f-group">
+                        <textarea id="fMessage" rows="5" required placeholder=" "></textarea>
+                        <label for="fMessage">Pesan Anda</label>
+                    </div>
+                    <button type="submit" class="btn btn-main btn-full" id="fSubmit">
+                        <span>Kirim Pesan</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="f-logo">P</span>
+                    <p>Portofolio</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#skills">Keahlian</a>
+                    <a href="#projects">Proyek</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+                <p class="footer-copy">
+                    &copy; 2024 Dibuat dengan <i class="fas fa-heart"></i> menggunakan HTML, CSS & JS
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMsg">Pesan berhasil dikirim!</span>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
